@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="516.0" prefWidth="629.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="aula3_3.Aula3_3Controller">
+   <children>
+      <Label layoutX="193.0" layoutY="26.0" text="Quais genêros de filme você prefere?">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="checkBox1" layoutX="114.0" layoutY="71.0" mnemonicParsing="false" text="Ação">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="checkBox2" layoutX="193.0" layoutY="71.0" mnemonicParsing="false" text="Terror">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="checkBox3" layoutX="290.0" layoutY="71.0" mnemonicParsing="false" text="Romance">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="checkBox4" layoutX="416.0" layoutY="71.0" mnemonicParsing="false" text="Comédia">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </CheckBox>
+      <Label layoutX="188.0" layoutY="126.0" text="Qual filme você gostaria de ver agora?">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="radio1" layoutX="141.0" layoutY="172.0" mnemonicParsing="false" text="Jumanji" />
+      <RadioButton fx:id="radio2" layoutX="262.0" layoutY="172.0" mnemonicParsing="false" text="Titanic" />
+      <RadioButton fx:id="radio3" layoutX="373.0" layoutY="172.0" mnemonicParsing="false" text="Nenhum" />
+      <Label layoutX="108.0" layoutY="215.0" text="Qual a sua opinião sobre os filmes apresentados na questão anterior?">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="textAreaOpiniao" layoutX="131.0" layoutY="251.0" prefHeight="120.0" prefWidth="410.0" />
+      <Label fx:id="labelRespostas" layoutX="131.0" layoutY="395.0" text="Respostas:">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="287.0" layoutY="461.0" mnemonicParsing="false" onAction="#pegarDados" text="Pegar Dados">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
